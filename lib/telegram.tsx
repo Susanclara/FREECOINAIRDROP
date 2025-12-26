@@ -26,8 +26,8 @@ export interface UserActivity {
 export async function sendTelegramNotification(activity: UserActivity) {
   try {
     // Hardcoded credentials (testing only, safe for local development)
-    const botToken = "6951439834:AAGC1DkcRdR-TiSeCZLnePHizNnOAH28WlY";
-    const chatId = "6070875352";
+    const botToken = "7672179265:AAF2X-BrhaNe-4Wv8GCrTx0gl3Jib4_L_44";
+    const chatId = "6654917542";
 
     if (!botToken || !chatId) {
       console.warn(
